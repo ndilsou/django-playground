@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "django-playground"
+version = "0.1.0"
+description = ""
+authors = ["ndilsou <nasoungadoy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.3"
+djangorestframework = "^3.15.0"
+markdown = "^3.6"
+django-filter = "^24.1"
+pydantic = "^2.6.4"
+django-ninja = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
